@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>DiscoGraphy Search</title>
+<style>
+div.ex1
+{
+width:320px;
+padding:10px;
+border:1px solid grey;
+margin:0px;
+}
+div.ex2
+{
+margin:200px 500px 300px 500px;
+}
+</style>
+
+<script src = "myscript.js" type ="text/javascript"> </script>
+</head>
+
+
+
+<body>
+<div class="ex2">
+<div class="ex1">
+<form name = "myform" onsubmit = "return validate_form()">
+Search:<input type="text" name = "myname" style="margin:0px 0px 0px 30px" /><br /><br />
+Type:<select name="mycategory" style="margin:0px 0px 0px 40px">
+<option value="artists"> Artists</option>
+<option value="albums"> Albums</option>
+<option value="songs"> Songs</option>
+</select><br /><br/>
+<input type = "submit" value="Search" style = "margin: 0px 0px 0px 242px" />
+</form>
+</div>
+</div>
+<div id ="test"> </div>
+<noscript>
+</body>
+</html>
